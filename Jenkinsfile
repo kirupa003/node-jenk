@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/kirupa003/node-jenk.git'
+                    checkout scm
             }
         }
 
